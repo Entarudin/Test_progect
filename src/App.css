@@ -11,6 +11,51 @@ height: 100%;
   align-items: center;
 
 }
+.bucket{
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  right: 20px;
+  top: 30px;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.3s ease-in-out;
+  
+}
+.bucket:hover{
+  background-color:brown;
+}
+.main-title{
+  padding-left: 30px;
+  height: 20px;
+  width: 80px;
+}
+
+.bucket-icon{
+
+width: 30px;
+height: 30px;
+border-radius: 50%;
+
+
+}
+
+.badge{
+  position: absolute;
+  min-width: 15px;
+  height: 15px;
+  top: -5px;
+  right: -7px;
+  padding: 2px;
+  border-radius: 50%;
+  background-color: #500707;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+
+
+}
 .search_input{
   width:400px ;
   height: 40px;
@@ -19,12 +64,20 @@ height: 100%;
 
 }
 .shop-items{
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 450px;
  background: #f5dbae;
   border-radius: 30px;
+  text-align: center;
 }
+.shop-item-logo{
+width: 100%;
+height: 200px;
+object-fit: cover;
+border-radius: 15px;
 
+
+}
 .shop-title {
   color: #5a5151;
   text-align: center;
